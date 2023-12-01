@@ -1,0 +1,263 @@
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-color: #262C3C;
+    
+}
+.master{
+    width: 650px;
+    height: 570px;
+    border-radius: 15px;
+    background-color: #1C2541;
+    position:static;
+    margin-top: 25px;
+    
+    
+}
+
+.nav{
+    margin-top: -20px;
+    width: 650px;
+    height: 75px;
+    background-color: #0B132B;
+    border-radius: 15px;
+    font-family: 'Irish Grover';
+    
+    
+    
+
+    
+}
+.logol{
+    margin: 1px;
+    display:flex;
+    justify-content: left;
+    margin-inline: 10px;
+    padding: 6px;
+    
+
+}
+.loginho{
+    
+    display: flex;
+    justify-content: left;
+    margin-inline: 10px;
+    
+    
+
+}
+.menu{
+    font-size: 20px;
+    text-align: right;
+    margin: 10px;
+    display: flex;
+    margin-inline: 10px;
+    padding: 6px;
+    
+    
+}
+
+.lista{
+    padding: 10px;
+    list-style: none;
+    text-decoration: none;
+    justify-content: right;
+    float: right;
+    margin-left: 5px;
+    
+    
+}
+
+.listinha{
+    text-decoration-color: white;
+    color: white;
+    text-decoration: none;
+    display: block;
+    justify-content:right;
+    float: right;
+}
+.listinha:hover{
+    background-color: #6D7BA3;
+    color: aliceblue;
+    overflow: hidden;
+    padding: auto;
+    float: right;
+    border-radius: 20px;
+    width: 103px;
+    height: 22px;
+    text-align: center;
+    
+    
+    
+}
+
+.r{
+    width: 200px;
+    height: 480px;
+    border-radius: 15px;
+    background-color: #3A506B;
+    margin-left: 25px;
+
+}
+.links{
+    list-style: none;
+    display: grid;
+    margin-left: -20px;
+    padding-top: 50px;
+    grid-gap: 40px;
+
+    
+
+}
+.src{
+    text-decoration: none;
+    color: white;
+    font-family: 'Irish Grover';
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 30px 10px 5px 30px;
+    
+    
+    
+    
+    
+
+}
+.img{
+    text-align: center;
+    
+    
+    
+}
+.r2{
+    width: 380px;
+    height: 480px;
+    border-radius: 15px;
+    background-color: #3A506B;
+    display:inline-flex;
+    float: right;
+    margin-top: -480px;
+    margin-right:30px ;
+    
+}
+.h{
+    position:static;
+    width: 380px;
+    height: 480px;
+    border-radius: 15px;
+}
+video{
+    width: 650px;
+    height: 570px;
+    border-radius: 15px;
+    background-color: #1C2541;
+    position:static;
+    margin-top: 25px;
+}
+audio{
+    width: 650px;
+    height: 570px;
+    border-radius: 15px;
+    background-image: url(../img/poster.jpg) ;
+    background-size: auto;
+    position:static;
+    margin-top: 25px;
+ 
+
+}
+textarea{
+    font-family: 'Irish Grover';
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    margin-top: 50px;
+    
+}
+.form_box{
+    display: flex;
+    flex-direction: column;
+    background-color: #1C2541;
+    border-radius: 8px;
+    width: 520px;
+}
+.form_box .tt{
+    padding: 12px 22px;
+    font-family: 'Irish Grover';
+    font-size: 24px;
+    color: white;
+    
+    
+}
+.form_box form{
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+    padding: 32px;
+}
+.form_box input,
+.form_box textarea{
+    width: calc(50% - 8px);
+    height: 35px;
+    border-radius: 8px;
+    border: thin solid #999;
+    padding-left: 16px;
+    margin-bottom: 16px;
+    font-size: 16px;
+}
+.form_box input:first-child{
+    margin-right: 16px;
+}
+.form_box .assunto{
+    width: 100%;
+    font-family: 'Irish Grover';
+    
+
+}
+.form_box .email{
+    width: 100%;
+    font-family: 'Irish Grover';
+
+}
+.form_box .nomee{
+    width: 100%;
+    font-family: 'Irish Grover';
+
+}
+.form_box textarea{
+    width: 100%;
+    height: 175px;
+    padding: 16px;
+}
+.form_box button{
+    display: block;
+    border: none;
+    outline: none;
+    width: 180px;
+    height: 45px;
+    border-radius: 8px;
+    background-color: #031021;
+    color: white;
+    cursor: pointer;
+}
+.form_box button:hover{
+    background-color: #6D7BA3;
+
+}
+.form_box .term{
+    height: 10px;
+    width: 10px;
+}
+.form_box .aa{
+    font-family: 'Irish Grover';
+    color: white;
+
+}
+
+    
+
