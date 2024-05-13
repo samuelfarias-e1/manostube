@@ -6,7 +6,7 @@ body {
     
 }
 .master{
-    width: 650px;
+    width: 950px;
     height: 570px;
     border-radius: 15px;
     background-color: #1C2541;
@@ -18,7 +18,7 @@ body {
 
 .nav{
     margin-top: -20px;
-    width: 650px;
+    width: 950px;
     height: 75px;
     background-color: #0B132B;
     border-radius: 15px;
@@ -62,9 +62,7 @@ body {
     padding: 10px;
     list-style: none;
     text-decoration: none;
-    justify-content: right;
-    float: right;
-    margin-left: 5px;
+    margin-right: 100px;
     
     
 }
@@ -73,9 +71,9 @@ body {
     text-decoration-color: white;
     color: white;
     text-decoration: none;
-    display: block;
-    justify-content:right;
-    float: right;
+    display: flex;
+    justify-content: space-around;
+    
 }
 .listinha:hover{
     background-color: #6D7BA3;
@@ -132,10 +130,10 @@ body {
     
 }
 .r2{
-    width: 380px;
-    height: 480px;
+    width: 680px;
+    height: 440px;
     border-radius: 15px;
-    background-color: #3A506B;
+    
     display:inline-flex;
     float: right;
     margin-top: -480px;
@@ -144,10 +142,36 @@ body {
 }
 .h{
     position:static;
-    width: 380px;
-    height: 480px;
+    width: 680px;
+    height: 350px;
     border-radius: 15px;
+    margin-top: -1px;
 }
+
+.bbuton{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: -100px;
+    margin-left: 150px;
+    
+
+
+}
+
+.bbuton button{
+    height: 100px;
+    width: 200px;
+    font-size: 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: #3A506B ;
+    color: aliceblue;
+    cursor: pointer;
+    
+    
+    }
 video{
     width: 650px;
     height: 570px;
